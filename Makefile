@@ -1,7 +1,7 @@
 NAME := my-echo
 REPOSITORY := okarow/$(NAME)
 TAG := 20231109
-GOOS := linux
+GOOS := windows
 GOARCH := amd64
 
 .PHONY: build test image-build image-push clean
